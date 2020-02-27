@@ -9,8 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel = ViewModel()
+    
+    @State var show: Bool = true
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("Response")
+            alert(isPresented: $show) {
+                Alert(title: Text("hehe"))
+            }
+            List(viewModel.articles, id: \.title) { article in
+                Text(article.title)
+            }
+        }
+        .onAppear {
+            self.viewModel.load()
+        }
     }
 }
 
