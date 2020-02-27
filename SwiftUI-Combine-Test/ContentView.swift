@@ -12,20 +12,28 @@ struct ContentView: View {
     
     @ObservedObject var viewModel = ViewModel()
     
-    @State var show: Bool = true
+    @State var show: Bool = false
     
     var body: some View {
         VStack {
             Text("Response")
-            alert(isPresented: $show) {
-                Alert(title: Text("hehe"))
-            }
             List(viewModel.articles, id: \.title) { article in
                 Text(article.title)
             }
+            
+            Button("press me") {
+                self.show.toggle()
+            }
         }
+        .padding(12)
         .onAppear {
             self.viewModel.load()
+        }
+            
+        .alert(isPresented: $show) {
+            Alert(title: Text("hehe"),
+                  message: Text("gogo"),
+                  dismissButton: .default(Text("ne var lan")))
         }
     }
 }
