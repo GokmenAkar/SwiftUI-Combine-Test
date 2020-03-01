@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B361D26C2408475B00E65C61 /* Profile.h in Headers */ = {isa = PBXBuildFile; fileRef = B361D26A2408475B00E65C61 /* Profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3CDEA3C240BAC55004142EE /* Article.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CDEA3A240BAC55004142EE /* Article.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B361D2672408475B00E65C61 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B361D26A2408475B00E65C61 /* Profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
-		B361D26B2408475B00E65C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CDEA37240BAC55004142EE /* Article.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Article.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CDEA3A240BAC55004142EE /* Article.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		B3CDEA3B240BAC55004142EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B361D2642408475B00E65C61 /* Frameworks */ = {
+		B3CDEA34240BAC55004142EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,78 +27,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B361D25D2408475B00E65C61 = {
+		B3CDEA2D240BAC55004142EE = {
 			isa = PBXGroup;
 			children = (
-				B361D2692408475B00E65C61 /* Profile */,
-				B361D2682408475B00E65C61 /* Products */,
+				B3CDEA39240BAC55004142EE /* Article */,
+				B3CDEA38240BAC55004142EE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B361D2682408475B00E65C61 /* Products */ = {
+		B3CDEA38240BAC55004142EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B361D2672408475B00E65C61 /* Profile.framework */,
+				B3CDEA37240BAC55004142EE /* Article.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B361D2692408475B00E65C61 /* Profile */ = {
+		B3CDEA39240BAC55004142EE /* Article */ = {
 			isa = PBXGroup;
 			children = (
-				B361D26A2408475B00E65C61 /* Profile.h */,
-				B361D26B2408475B00E65C61 /* Info.plist */,
+				B3CDEA3A240BAC55004142EE /* Article.h */,
+				B3CDEA3B240BAC55004142EE /* Info.plist */,
 			);
-			path = Profile;
+			path = Article;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B361D2622408475B00E65C61 /* Headers */ = {
+		B3CDEA32240BAC55004142EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B361D26C2408475B00E65C61 /* Profile.h in Headers */,
+				B3CDEA3C240BAC55004142EE /* Article.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B361D2662408475B00E65C61 /* Profile */ = {
+		B3CDEA36240BAC55004142EE /* Article */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B361D26F2408475B00E65C61 /* Build configuration list for PBXNativeTarget "Profile" */;
+			buildConfigurationList = B3CDEA3F240BAC55004142EE /* Build configuration list for PBXNativeTarget "Article" */;
 			buildPhases = (
-				B361D2622408475B00E65C61 /* Headers */,
-				B361D2632408475B00E65C61 /* Sources */,
-				B361D2642408475B00E65C61 /* Frameworks */,
-				B361D2652408475B00E65C61 /* Resources */,
+				B3CDEA32240BAC55004142EE /* Headers */,
+				B3CDEA33240BAC55004142EE /* Sources */,
+				B3CDEA34240BAC55004142EE /* Frameworks */,
+				B3CDEA35240BAC55004142EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Profile;
-			productName = Profile;
-			productReference = B361D2672408475B00E65C61 /* Profile.framework */;
+			name = Article;
+			productName = Article;
+			productReference = B3CDEA37240BAC55004142EE /* Article.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B361D25E2408475B00E65C61 /* Project object */ = {
+		B3CDEA2E240BAC55004142EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "GÖKMEN AKAR";
 				TargetAttributes = {
-					B361D2662408475B00E65C61 = {
+					B3CDEA36240BAC55004142EE = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = B361D2612408475B00E65C61 /* Build configuration list for PBXProject "Profile" */;
+			buildConfigurationList = B3CDEA31240BAC55004142EE /* Build configuration list for PBXProject "Article" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,18 +106,18 @@
 				en,
 				Base,
 			);
-			mainGroup = B361D25D2408475B00E65C61;
-			productRefGroup = B361D2682408475B00E65C61 /* Products */;
+			mainGroup = B3CDEA2D240BAC55004142EE;
+			productRefGroup = B3CDEA38240BAC55004142EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B361D2662408475B00E65C61 /* Profile */,
+				B3CDEA36240BAC55004142EE /* Article */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B361D2652408475B00E65C61 /* Resources */ = {
+		B3CDEA35240BAC55004142EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,7 +127,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B361D2632408475B00E65C61 /* Sources */ = {
+		B3CDEA33240BAC55004142EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,7 +137,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B361D26D2408475B00E65C61 /* Debug */ = {
+		B3CDEA3D240BAC55004142EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		B361D26E2408475B00E65C61 /* Release */ = {
+		B3CDEA3E240BAC55004142EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +257,7 @@
 			};
 			name = Release;
 		};
-		B361D2702408475B00E65C61 /* Debug */ = {
+		B3CDEA40240BAC55004142EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,14 +266,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Profile/Info.plist;
+				INFOPLIST_FILE = Article/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akar.Profile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akar.Article;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -281,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		B361D2712408475B00E65C61 /* Release */ = {
+		B3CDEA41240BAC55004142EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -290,14 +290,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Profile/Info.plist;
+				INFOPLIST_FILE = Article/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akar.Profile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akar.Article;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,25 +308,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B361D2612408475B00E65C61 /* Build configuration list for PBXProject "Profile" */ = {
+		B3CDEA31240BAC55004142EE /* Build configuration list for PBXProject "Article" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B361D26D2408475B00E65C61 /* Debug */,
-				B361D26E2408475B00E65C61 /* Release */,
+				B3CDEA3D240BAC55004142EE /* Debug */,
+				B3CDEA3E240BAC55004142EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B361D26F2408475B00E65C61 /* Build configuration list for PBXNativeTarget "Profile" */ = {
+		B3CDEA3F240BAC55004142EE /* Build configuration list for PBXNativeTarget "Article" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B361D2702408475B00E65C61 /* Debug */,
-				B361D2712408475B00E65C61 /* Release */,
+				B3CDEA40240BAC55004142EE /* Debug */,
+				B3CDEA41240BAC55004142EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B361D25E2408475B00E65C61 /* Project object */;
+	rootObject = B3CDEA2E240BAC55004142EE /* Project object */;
 }

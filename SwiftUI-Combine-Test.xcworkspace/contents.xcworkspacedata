@@ -7,43 +7,11 @@
    <Group
       location = "group:Features"
       name = "Features">
-      <Group
-         location = "group:Articles"
-         name = "Articles">
-         <Group
-            location = "group:Article"
-            name = "Article">
-            <FileRef
-               location = "group:Article.xcodeproj">
-            </FileRef>
-            <Group
-               location = "group:Article"
-               name = "Article">
-               <FileRef
-                  location = "group:Article.h">
-               </FileRef>
-               <FileRef
-                  location = "group:Info.plist">
-               </FileRef>
-            </Group>
-         </Group>
-      </Group>
-      <Group
-         location = "group:Profile"
-         name = "Profile">
-         <FileRef
-            location = "group:Profile.xcodeproj">
-         </FileRef>
-         <Group
-            location = "group:Profile"
-            name = "Profile">
-            <FileRef
-               location = "group:Profile.h">
-            </FileRef>
-            <FileRef
-               location = "group:Info.plist">
-            </FileRef>
-         </Group>
-      </Group>
+      <FileRef
+         location = "group:Article/Article.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:TestFeature/TestFeature.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>

@@ -2,7 +2,7 @@
 //  Article.h
 //  Article
 //
-//  Created by GÖKMEN AKAR on 27.02.2020.
+//  Created by GÖKMEN AKAR on 1.03.2020.
 //  Copyright © 2020 GÖKMEN AKAR. All rights reserved.
 //
 
