@@ -15,7 +15,26 @@
 		8B27658D24079E6100B08A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B27658B24079E6100B08A74 /* LaunchScreen.storyboard */; };
 		8B2765952407A33C00B08A74 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2765942407A33C00B08A74 /* ViewModel.swift */; };
 		8B2765972407A35900B08A74 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2765962407A35900B08A74 /* Article.swift */; };
+		B32774EB240AB1E400E87C17 /* Article.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32774E9240AB1E400E87C17 /* Article.framework */; };
+		B32774EC240AB1E400E87C17 /* Article.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B32774E9240AB1E400E87C17 /* Article.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B32774ED240AB1E400E87C17 /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32774EA240AB1E400E87C17 /* Profile.framework */; };
+		B32774EE240AB1E400E87C17 /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B32774EA240AB1E400E87C17 /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B32774EF240AB1E400E87C17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B32774EE240AB1E400E87C17 /* Profile.framework in Embed Frameworks */,
+				B32774EC240AB1E400E87C17 /* Article.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8B27657D24079E5D00B08A74 /* SwiftUI-Combine-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +47,8 @@
 		8B27658E24079E6100B08A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2765942407A33C00B08A74 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8B2765962407A35900B08A74 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B32774E9240AB1E400E87C17 /* Article.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Article.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32774EA240AB1E400E87C17 /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32774ED240AB1E400E87C17 /* Profile.framework in Frameworks */,
+				B32774EB240AB1E400E87C17 /* Article.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +69,7 @@
 			children = (
 				8B27657F24079E5D00B08A74 /* SwiftUI-Combine-Test */,
 				8B27657E24079E5D00B08A74 /* Products */,
+				B32774E8240AB1E400E87C17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +105,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B32774E8240AB1E400E87C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32774E9240AB1E400E87C17 /* Article.framework */,
+				B32774EA240AB1E400E87C17 /* Profile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +124,7 @@
 				8B27657924079E5D00B08A74 /* Sources */,
 				8B27657A24079E5D00B08A74 /* Frameworks */,
 				8B27657B24079E5D00B08A74 /* Resources */,
+				B32774EF240AB1E400E87C17 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
