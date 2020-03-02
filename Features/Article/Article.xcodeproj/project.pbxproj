@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B3CDEA3C240BAC55004142EE /* Article.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CDEA3A240BAC55004142EE /* Article.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D0A3EC240BB597007B5E01 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0A3EB240BB597007B5E01 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3CDEA37240BAC55004142EE /* Article.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Article.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CDEA3A240BAC55004142EE /* Article.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		B3CDEA3B240BAC55004142EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D0A3EB240BB597007B5E01 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				B3CDEA3A240BAC55004142EE /* Article.h */,
 				B3CDEA3B240BAC55004142EE /* Info.plist */,
+				B3D0A3EB240BB597007B5E01 /* Config.swift */,
 			);
 			path = Article;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					B3CDEA36240BAC55004142EE = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D0A3EC240BB597007B5E01 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		B3CDEA40240BAC55004142EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5V8RJEQVZK;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.akar.Article;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		B3CDEA41240BAC55004142EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5V8RJEQVZK;

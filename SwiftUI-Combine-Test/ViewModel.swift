@@ -10,7 +10,7 @@ import Foundation
 import Combine
 
 class ViewModel: ObservableObject {
-    @Published var articles: [Article] = [Article]()
+    @Published var articles: [Articles] = [Articles]()
     @Published var message: String? = ""
     var cancellable: AnyCancellable?
     
@@ -19,7 +19,7 @@ class ViewModel: ObservableObject {
         
         cancellable = URLSession.shared.dataTaskPublisher(for: URLRequest(url: url))
             .map(\.data)
-            .decode(type: [Article].self, decoder: JSONDecoder())
+            .decode(type: [Articles].self, decoder: JSONDecoder())
             .receive(on: RunLoop.main)
             .sink(receiveCompletion: { [weak self] (completion) in
                 self?.message = try? completion.error().localizedDescription
